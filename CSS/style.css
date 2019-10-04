@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    background-image: url(./image/hw11_ezy.jpg);
+    z-index: 1;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 40px;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav__logo {
+    color: #262626;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+    margin: 23px -66px;
+
+    
+}
+
+h3 {
+    margin: 0;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin: 19px -55px;
+    letter-spacing: 0.4px;
+
+}
+
+.nav__item{
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+.nav__item--active {
+    border-top: 2px solid #ff6033;
+}
+
+.promo {
+    background-image: url(../image/milk.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: right center;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 184px -74px 0px;
+    
+}
+
+.content__title{
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 25px;
+    
+}
+
+.content__title-text {
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    max-width: 350px;
+}
+
+button {
+    background-color: #ff6033;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    width: 200px;
+    height: 55px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.mouse {
+    position: absolute; 
+    bottom: 70px;
+    left: 735px;
+}
+
+.mouse svg {
+    width: 24px;
+    height: 40px;
+
+}
+
+main {
+    background-color: #00c4c4;
+    background-image: radial-gradient(circle 1125px at center, rgba(0, 196, 196, 0.81) 0%, rgba(0, 183, 183, 0.81) 32%, rgba(0, 173, 173, 0.81) 68%, rgba(0, 156, 156, 0.81) 100%);
+}
+
+.main__title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+.main__text {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-left: 100px;
+}
+
+.align__vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
